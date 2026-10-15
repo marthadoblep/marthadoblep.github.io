@@ -1,17 +1,14 @@
-<table border="1">
-  <tr>
-    <td colspan="2"> <app-header></app-header> </td>
-  </tr>
-  <tr>
-    <td> <app-work-experience></app-work-experience> </td>
-    <td> <app-skills></app-skills> </td>
-  </tr>
-  <tr>
-    <td> <app-education></app-education> </td>
-    <td> <app-certificates></app-certificates> </td>
-  </tr>
-  <tr>
-    <td> <app-languages></app-languages> </td>
-    <td> <app-interests></app-interests> </td>
-  </tr>
-</table>
+<div class="page">
+  <header class="hero">
+    <app-header></app-header>
+  </header>
+
+  <main class="grid">
+    <section class="card"><app-work-experience></app-work-experience></section>
+    <section class="card"><app-skills></app-skills></section>
+    <section class="card"><app-education></app-education></section>
+    <section class="card"><app-certificates></app-certificates></section>
+    <section class="card"><app-languages></app-languages></section>
+    <section class="card"><app-interests></app-interests></section>
+  </main>
+</div>
